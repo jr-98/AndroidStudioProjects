@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opcionOperacionesBasicas"
+        android:title="Operaciones basicas">
+        <menu>
+            <item
+                android:id="@+id/opcionSuma"
+                android:title="Suma">
+            </item>
+            <item
+                android:id="@+id/opcionResta"
+                android:title="Resta">
+            </item>
+            <item
+                android:id="@+id/opcionMultiplicacion"
+                android:title="Multiplicacion">
+            </item>
+            <item
+                android:id="@+id/opcionDivicion"
+                android:title="Divicion">
+            </item>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/opcionesAvanzadas"
+        android:title="Operaciones avanzadas">
+        <menu>
+            <item
+                android:id="@+id/opcionPotencia"
+                android:title="Potenciacion">
+            </item>
+            <item
+                android:id="@+id/opcionRaiz"
+                android:title="Raiz">
+            </item>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/opcionSerieFibbo"
+        android:title="Serie Fibbonaci">
+    </item>
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opcionActividad"
+        android:title="Actividades">
+        <menu>
+            <item
+                android:id="@+id/opcionParametro"
+                android:title="Parametros">
+            </item>
+            <item android:id="@+id/opcionEnviarDatos"
+                android:title="Envair Datos">
+
+            </item>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/opcionSensores"
+        android:title="Sensores"
+        >
+        <menu>
+            <item
+                android:id="@+id/opcionLuz"
+                android:title="Luz"
+                >
+            </item>
+            <item
+                android:id="@+id/opcionProximidad"
+                android:title="Proximidad"
+                >
+            </item>
+            <item
+                android:id="@+id/opcionAcelerometro"
+                android:title="Acelerometro"
+                >
+            </item>
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/opcionHardware"
+        android:title="Hardware"
+        >
+        <menu>
+            <item
+                android:id="@+id/opcionVibracion"
+                android:title="Vibracion"
+                >
+            </item>
+            <item
+                android:id="@+id/opcionCamara"
+                android:title="Camara"
+                >
+            </item>
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/opcionDialogos"
+        android:title="Dialogos"
+        >
+        <menu>
+            <item
+                android:id="@+id/opcionLogin"
+                android:title="Login"
+                >
+            </item>
+            <item
+                android:id="@+id/opcionRegistrar"
+                android:title="Registrar"
+                >
+            </item>
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/opcionArchivos"
+        android:title="Archivos"
+        >
+        <menu>
+            <item
+                android:id="@+id/opcionMI"
+                android:title="Memoria interna"
+                >
+            </item>
+            <item
+                android:id="@+id/opcionROW"
+                android:title="ROW"
+                >
+            </item>
+            <item
+                android:id="@+id/opcionSD"
+                android:title="Tarjeta"
+                >
+            </item>
+
+        </menu>
+
+    </item>
+
+
+</menu>

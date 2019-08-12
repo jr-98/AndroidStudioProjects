@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+
+    <EditText
+        android:id="@+id/n1txt"
+        android:autofillHints="username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="59dp"
+        android:layout_toEndOf="@+id/n2txtv"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/sumabtn"
+        android:layout_width="94dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="202dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="Button"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="198dp"
+        tools:text="Sumar"/>
+
+    <TextView
+        android:id="@+id/n1txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/n1txt"
+        android:layout_marginBottom="13dp"
+        android:text="Numero 1"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/n2txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_alignBottom="@+id/n2txt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="15dp"
+        android:text="NUmero 2"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <EditText
+        android:id="@+id/n2txt"
+        android:autofillHints="username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="122dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/resultadotxtv"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="237dp"
+        android:text=""
+        android:visibility="visible" />
+</RelativeLayout>

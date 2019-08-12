@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActividadDatosPersonales">
+
+    <EditText
+        android:id="@+id/nombreEditT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese su nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/apellidoEditT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese su apellido"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cedulaEditT"
+        android:layout_width="426dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese su número de cédula"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edadEditT"
+        android:layout_width="474dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingese su edad"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/EviarDP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActividadPrincipal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="526dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnFrgUno"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fragmento1" />
+
+        <Button
+            android:id="@+id/btnDBMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data Base" />
+
+        <Button
+            android:id="@+id/btnFrgDos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Framento2" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

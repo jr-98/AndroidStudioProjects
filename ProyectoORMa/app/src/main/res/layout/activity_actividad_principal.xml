@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".actividadPrincipal">
+    <EditText
+        android:id="@+id/txtnombreDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ingrese nombre" />
+
+    <EditText
+        android:id="@+id/txtCodigoDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtnombreDB"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="3dp"
+        android:ems="10"
+        android:hint="ingrese codigo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtPrecioDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtnombreDB"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="144dp"
+        android:ems="10"
+        android:hint="Ingrese precio"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtExistenciasDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtnombreDB"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="269dp"
+        android:ems="10"
+        android:hint="IngreseExistencias"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnGuardarDB"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginBottom="213dp"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/btnEliminarDB"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnGuardarDB"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="157dp"
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/btnBuscarTDB"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnGuardarDB"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="105dp"
+        android:text="Buscar T" />
+
+    <Button
+        android:id="@+id/btnModificarDB"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnGuardarDB"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="Modificar" />
+
+    <Button
+        android:id="@+id/btnBuscarCodDB"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnModificarDB"
+        android:layout_alignBottom="@+id/btnBuscarTDB"
+        android:text="Buscar Cod" />
+
+    <Button
+        android:id="@+id/btnEliminarCodDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnModificarDB"
+        android:layout_alignBottom="@+id/btnEliminarDB"
+        android:text="Eliminar Cod" />
+
+    <TextView
+        android:id="@+id/lblDatosProductoDB"
+        android:layout_width="295dp"
+        android:layout_height="93dp"
+        android:layout_alignStart="@+id/btnEliminarDB"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:hint="  Salida" />
+
+
+</RelativeLayout>

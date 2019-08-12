@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".actividadGradosFAtoCE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnConvertidor"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:text="Celcius"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <Button
+            android:id="@+id/btnFahrenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fahrenheit"
+            tools:text="Fahrenheit" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

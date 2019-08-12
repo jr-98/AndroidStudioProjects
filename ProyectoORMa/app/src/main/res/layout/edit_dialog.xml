@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtnombreDBDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtPrecioDBDialog"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="82dp"
+        android:ems="10"
+        android:hint="Ingrese el Nuevo nombre"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/txtPrecioDBDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="149dp"
+        android:ems="10"
+        android:hint="Ingrese el Nuevo precio"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtExistenciasDBDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="212dp"
+        android:ems="10"
+        android:hint="Ingrese las Nuevas Existencias"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnActualizarDBDialog"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginBottom="183dp"
+        android:background="#3C9D1D"
+        android:text="Actualizar" />
+
+    <Button
+        android:id="@+id/btnCancelarDBDialog"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginBottom="184dp"
+        android:background="#DF5E42 "
+        android:text="Cancelar" />
+
+
+
+</RelativeLayout>

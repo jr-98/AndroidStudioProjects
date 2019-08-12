@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActividadM_I">
+
+    <EditText
+        android:id="@+id/txtProductoMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Producto" />
+
+    <EditText
+        android:id="@+id/txtPrecioMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="133dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Precio" />
+
+    <TextView
+        android:id="@+id/lblDatosMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="146dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnEscribirMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginBottom="224dp"
+        android:text="Escribir" />
+
+    <Button
+        android:id="@+id/btnLeerMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnEscribirMI"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="2dp"
+        android:text="Leer" />
+</RelativeLayout>

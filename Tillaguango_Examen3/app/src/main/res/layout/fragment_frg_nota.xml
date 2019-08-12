@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".frgNota">
+
+    <TextView
+        android:id="@+id/lblNota1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="66dp"
+        android:text="POO" />
+
+    <TextView
+        android:id="@+id/lblFrgNota2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="134dp"
+        android:text="TextView"
+        tools:text="Web" />
+
+    <TextView
+        android:id="@+id/lblFrgNota3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="218dp"
+        android:text="Movil" />
+
+    <EditText
+        android:id="@+id/txtFrgNota1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtFrgNota2"
+        android:layout_alignTop="@+id/lblNota1"
+        android:ems="10"
+        android:hint="Ingrese la nota"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtFrgNota2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtNota1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="127dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ingrese la nota" />
+
+    <EditText
+        android:id="@+id/txtFrgNota3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lblFrgNota3"
+        android:layout_alignLeft="@+id/lblFrgNota3"
+        android:layout_alignEnd="@+id/txtNota1"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ingrese la nota" />
+
+    <Button
+        android:id="@+id/btnFrgCalcularP"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="199dp"
+        android:background="@color/colorPrimary"
+        android:text="Promedio" />
+
+    <TextView
+        android:id="@+id/lblFrgResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="144dp" />
+
+</RelativeLayout>

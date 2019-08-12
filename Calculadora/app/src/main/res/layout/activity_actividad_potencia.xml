@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividadPotencia">
+
+    <Button
+        android:id="@+id/btnInfo2Pot"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_alignBaseline="@+id/lblV2Pot"
+        android:layout_alignStart="@+id/lblV2Pot"
+        android:layout_alignLeft="@+id/lblV2Pot"
+        android:layout_marginStart="315dp"
+        android:layout_marginLeft="315dp"
+        android:background="@android:drawable/ic_menu_info_details" />
+
+    <TextView
+        android:id="@+id/lblV1Pot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:text="Base" />
+
+    <TextView
+        android:id="@+id/lblV2Pot"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="114dp"
+        android:text="Exponente" />
+
+    <EditText
+        android:id="@+id/txtV1Pot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtV2Pot"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Ingrese la base"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtV2Pot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="98dp"
+        android:ems="10"
+        android:hint="Ingrese el exponente"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnPot"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="164dp"
+        android:background="@color/colorPrimary"
+        android:text="Calcular"/>
+
+    <TextView
+        android:id="@+id/lblresultadoPot"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Resultado" />
+
+    <Button
+        android:id="@+id/btnInfo1Pot"
+        android:layout_width="39dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="318dp"
+        android:layout_marginLeft="318dp"
+        android:layout_marginTop="38dp"
+        android:background="@android:drawable/ic_menu_info_details" />
+    
+
+  </RelativeLayout>

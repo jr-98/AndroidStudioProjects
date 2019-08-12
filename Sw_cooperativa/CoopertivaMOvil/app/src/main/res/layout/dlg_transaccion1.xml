@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtCuentaClienteNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtCuentaNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Numero Cuenta"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtCuentaSal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Saldo"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/txtMontoDeposito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="true"
+        android:hint="Valor de Transaccion"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="true"
+        android:hint="Descripcion"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/txtResponsable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="true"
+        android:hint="Responsable"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnDeposito"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Deposito" />
+
+    <LinearLayout
+        android:layout_width="416dp"
+        android:layout_height="31dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRetiro"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Retiro" />
+
+
+
+</LinearLayout>

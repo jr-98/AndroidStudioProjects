@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividadDivicion">
+    <TextView
+        android:id="@+id/lblV1Div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:text="Dividendo" />
+
+    <TextView
+        android:id="@+id/lblV2Div"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="114dp"
+        android:text="Divisor" />
+
+    <EditText
+        android:id="@+id/txtV1Div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtV2Div"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="Ingrese el Dividendo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtV2Div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="98dp"
+        android:ems="10"
+        android:hint="Ingrese el Divisor"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnDiv"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="164dp"
+        android:background="@color/colorPrimary"
+        android:text="Dividir"/>
+
+    <TextView
+        android:id="@+id/lblresultadoDiv"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Cociente"/>
+
+</RelativeLayout>
